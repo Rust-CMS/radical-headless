@@ -1,4 +1,8 @@
-#[macro_use] extern crate rocket;
+#[macro_use]
+extern crate rocket;
+
+mod api;
+mod controllers;
 
 #[launch]
 fn rocket() -> _ {
